@@ -1,0 +1,5 @@
+---
+# Post tasks
+
+- name: "Post tasks"
+  command: /bin/true

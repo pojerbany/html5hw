@@ -1,0 +1,7 @@
+- name: Harden Server
+  hosts: localhost
+  connection: local
+  become: yes
+
+  roles:
+    - role: '../RHEL7-CIS'
